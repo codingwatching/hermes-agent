@@ -30,6 +30,7 @@
         ./nix/devShell.nix
         ./nix/nixosModules.nix
         ./nix/homeModules.nix
+        ./nix/setup.nix
       ];
 
       flake.templates.home-manager = {
