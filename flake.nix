@@ -30,12 +30,6 @@
         ./nix/devShell.nix
         ./nix/nixosModules.nix
         ./nix/homeModules.nix
-        ./nix/setup.nix
       ];
-
-      flake.templates.home-manager = {
-        path = ./nix/templates/home-manager;
-        description = "Home-manager configuration with Hermes Agent gateway";
-      };
     };
 }
