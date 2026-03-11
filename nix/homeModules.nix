@@ -5,7 +5,7 @@
       cfg = config.services.hermes-agent;
 
       binPath = lib.makeBinPath (with pkgs; [
-        python311 nodejs_20 ripgrep git openssh uv rsync coreutils
+        python311 nodejs_20 ripgrep git openssh uv rsync coreutils ffmpeg
       ]);
 
       hermesWrapper = pkgs.writeShellScriptBin "hermes" ''
